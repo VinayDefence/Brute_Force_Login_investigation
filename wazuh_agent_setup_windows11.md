@@ -17,7 +17,7 @@ open pwershell as admin
 
 then enter this command 
 
-sudo /var/ossec/bin/manage_agents
+$ sudo /var/ossec/bin/manage_agents
 
 Enter A → add agent (e.g win 11)
 
@@ -28,7 +28,7 @@ Copy that key and add it into the wazuh agent interface
 ## Start Agent
 Open PowerShell (Admin):
 
-NET START WazuhSvc
+$ NET START WazuhSvc
 
 ## Verify in Dashboard
 
