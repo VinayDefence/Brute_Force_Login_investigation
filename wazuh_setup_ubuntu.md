@@ -25,3 +25,15 @@ sudo systemctl enable wazuh-dashboard
 ## Verify
 
 sudo systemctl status wazuh-manager
+
+# PHASE 2 — ACCESS WAZUH
+Open browser:
+
+https://<UBUNTU_IP>
+
+Login:
+
+•	user: admin
+
+•	password: (your set password)
+
