@@ -18,4 +18,5 @@ $ sysmon64.exe -i
 ```
 $ sc query sysmon64
 ```
+## Image
 ![Verification](screenshots/sysmon_verify.png)
