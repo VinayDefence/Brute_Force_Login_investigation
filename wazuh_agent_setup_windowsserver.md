@@ -13,7 +13,9 @@ from web browser
 
 •key → leave as balnk 
 
-open pwershell as admin
+## Open Ubuntu Server
+
+open terminal
 
 then enter this command 
 
@@ -28,9 +30,9 @@ Enter E → slecet the win server ID then its will shown the key
 Copy that key and add it into the wazuh agent interface
 
 ## Start Agent
-Open PowerShell (Admin):
+Open CMD (Admin):
 ```
-$ NET START WazuhSvc
+$ net start wazuh
 ```
 ## Verify in Dashboard
 
