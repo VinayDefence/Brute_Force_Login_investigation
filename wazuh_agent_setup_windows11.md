@@ -5,7 +5,7 @@
 
 Download:
 
-https://packages.wazuh.com/4.x/windows/wazuh-agent.msi
+https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.4-1.msi
 from web browser
 
 ## During Install:
@@ -32,7 +32,7 @@ Copy that key and add it into the wazuh agent interface
 ## Start Agent
 Open CMD (Admin):
 ```
-$ Nnet start wazuh
+$ net start wazuh
 ```
 ## Verify in Dashboard
 
