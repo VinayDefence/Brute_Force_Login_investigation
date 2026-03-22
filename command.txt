@@ -1,0 +1,18 @@
+# Enable logging
+auditpol /set /category:"Logon/Logoff" /success:enable /failure:enable
+
+# Restart Wazuh agent
+Restart-Service WazuhSvc
+
+# Register agent
+agent-auth.exe -m <WAZUH_SERVER_IP>
+
+# Start agent
+net start WazuhSvc
+
+# Hydra attack
+hydra -l Administrator -P passwords.txt rdp://<WINDOWS_IP> -t 1 -W 3
+
+# Wazuh queries
+win.system.eventID:4625
+win.system.eventID:4624
