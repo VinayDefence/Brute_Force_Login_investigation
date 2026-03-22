@@ -1,41 +1,79 @@
-# 🛡️ SOC Project Report
+# 🛡️ FINAL INCIDENT REPORT
 
-## 📌 Objective
-To detect and analyze cyber attacks using :contentReference[oaicite:0]{index=0}.
+## 📌 Incident Name
+Brute Force Login Attack
 
----
 
-## 🖥️ Lab Setup
-- Kali Linux (Attacker)
-- Ubuntu Server (Wazuh Manager)
-- Windows Server (Victim)
-- Windows 11 (Client)
+## 📅 Date
+21.03.2026
 
----
 
-## ⚙️ Tools Used
-- Hydra
-- Wazuh
-- Sysmon
+## 👨‍💻 Analyst
+VinayDefence
 
----
 
-## ⚔️ Attack Performed
-Brute-force attack using Hydra on RDP service.
+## 📄 Summary
+A brute force attack was detected targeting a Windows system. The attacker attempted multiple login combinations to gain unauthorized access.
 
----
 
-## 🔍 Detection
-- Event ID 4625 (Failed login)
-- Event ID 4624 (Successful login)
+## 🌐 Source IP
+192.168.0.86
 
----
 
-## 📊 Results
-- Attack detected successfully
-- Logs analyzed in Wazuh dashboard
+## 🎯 Target System
+- Windows 11  
+- Windows Server  
 
----
+
+## 👤 Target Account
+Administrator
+
+
+## 🔍 Findings
+
+- Multiple failed login attempts detected (Event ID 4625)  
+- Possible successful login observed (Event ID 4624)  
+- Rapid and repeated login attempts identified  
+- Suspicious authentication activity from a single source IP  
+
+
+## ⚠️ Risk Level
+High
+
+
+## 💥 Impact
+
+- Risk of unauthorized system access  
+- Potential compromise of administrator account  
+- Possible lateral movement within the network  
+
+
+
+## 🛠️ Actions Taken
+
+- Blocked attacker IP address  
+- Reset compromised account password  
+- Enabled Multi-Factor Authentication (MFA)  
+- Monitored system for further suspicious activity  
+
+
+## 🧠 Detection Method
+
+The attack was detected using Wazuh SIEM by analyzing Windows Security Event Logs.
+
+### Key Indicators:
+- Event ID 4625 → Failed login attempts  
+- Event ID 4624 → Successful login  
+
 
 ## 🏁 Conclusion
-Wazuh successfully monitored and detected the attack in real-time.
+
+The incident was confirmed as a brute force attack targeting the Administrator account. Early detection helped in identifying and mitigating the threat before further damage occurred.
+
+
+## 📊 Recommendations
+
+- Enforce strong password policies  
+- Enable account lockout after multiple failed attempts  
+- Implement MFA for all critical accounts  
+- Continuously monitor logs using SIEM tools  
