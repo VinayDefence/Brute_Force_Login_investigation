@@ -5,7 +5,8 @@
 
 Download:
 
-https://packages.wazuh.com/4.x/windows/wazuh-agent.msi
+https://packages.wazuh.com/4.x/windows/wazuh-agent-4.7.5-1.msi
+
 from web browser
 
 ## During Install:
@@ -28,6 +29,8 @@ Enter A → add agent (e.g win server)
 Enter E → slecet the win server ID then its will shown the key 
 
 Copy that key and add it into the wazuh agent interface
+
+![Wazuh-Agent-add](screenshots/wazuh_agent.png)
 
 ## Start Agent
 Open CMD (Admin):
