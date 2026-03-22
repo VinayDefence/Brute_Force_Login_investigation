@@ -27,6 +27,7 @@ sudo systemctl enable wazuh-dashboard
 sudo systemctl status wazuh-manager
 
 ```
+![Wazuh Manager Status](scrennshots/wazuh_manager.png)
 # PHASE 2 — ACCESS WAZUH
 
 Open browser:
