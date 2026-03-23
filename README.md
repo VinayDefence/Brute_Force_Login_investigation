@@ -7,7 +7,7 @@ This project demonstrates detection and investigation of a brute force login att
 
 ---
 
-![Dashboard](PASTE_YOUR_RAW_IMAGE_LINK_1_HERE)
+![Dashboard](screenshots/wazuh/wazuh_dashboard1.png)
 
 ---
 
@@ -73,17 +73,10 @@ win.system.eventID:4624
 
 ---
 
-![Failed Logs](PASTE_YOUR_RAW_IMAGE_LINK_3_HERE)
+![Wazuh_Dashboard](screenshots/wazuh/wazuh_dashboard0.png)
+![Success Logs](screenshots/wazuh/wazuh_success_login4.png)
+![Attacker IP](screenshots/wazuh/wazuh_ip5.1.png)
 
-![Agents](PASTE_YOUR_RAW_IMAGE_LINK_4_HERE)
-
-![Logs](PASTE_YOUR_RAW_IMAGE_LINK_5_HERE)
-
-![Attacker IP](PASTE_YOUR_RAW_IMAGE_LINK_6_HERE)
-
-![Success Logs](PASTE_YOUR_RAW_IMAGE_LINK_7_HERE)
-
-![Final Output](PASTE_YOUR_RAW_IMAGE_LINK_8_HERE)
 
 ---
 
