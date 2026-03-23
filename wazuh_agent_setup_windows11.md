@@ -1,7 +1,7 @@
 # 🔌 PHASE 3 — CONNECT WINDOWS TO WAZUH
 ## On Windows 11
 
-### Install Agent
+### Install Agent 
 
 Download:
 
